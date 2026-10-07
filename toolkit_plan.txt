@@ -1,0 +1,35 @@
+==================================================
+           PERSONAL TOOLKIT - PLAN
+==================================================
+
+SELECTED TOOLS:
+1. Calculator: Performs basic arithmetic (addition, subtraction, multiplication, division) between two numbers.
+2. To-Do List Manager: Allows users to add, view, and clear tasks dynamically from a list.
+3. Number Guessing Game: Generates a secret number between 1 and 20 for the user to guess within limited attempts.
+
+EXACT MENU TEXT:
+======================================
+      WELCOME TO MULTI-TOOLKIT        
+======================================
+1. Simple Calculator
+2. To-Do List Manager
+3. Number Guessing Game
+4. Quit
+
+CONCEPTS USED PER TOOL:
+1. Simple Calculator:
+   - Conditionals (if/elif/else for operation selection and zero-division checks)
+   - F-strings (for formatted output)
+   - Exception handling / Float casting
+
+2. To-Do List Manager:
+   - Lists (dynamic storage for tasks)
+   - Loops (while loop for submenu navigation, for loop with enumerate)
+   - Conditionals (checking menu choices and list length)
+   - F-strings (for friendly output)
+
+3. Number Guessing Game:
+   - Loops (while loop for repeated guesses)
+   - Conditionals (checking if guess is too high, too low, or correct)
+   - Variables & standard libraries (random module)
+   - F-strings (for feedback messages)
